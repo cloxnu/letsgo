@@ -1,0 +1,21 @@
+baseURL: https://letsgo.clox.nu/
+languageCode: cn
+defaultContentLanguage: cn
+title: Let's Go
+theme: book
+
+publishdir: ../docs/
+
+menu:
+  after:
+    - name: "关于我"
+      url: "https://clox.nu/"
+      weight: 1
+
+params:
+  BookTheme: "auto"
+  BookToc: true
+  BookMenuBundle: /menu
+  BookRepo: https://github.com/cloxnu/letsgo.clox.nu
+  BookEditPath: edit/main/src
+  BookComments: true
